@@ -7,9 +7,9 @@ const columns = Array(12)
 const columnProperties = defineProperties({
   conditions: {
     wide: {},
-    "cu-800": { "@container": "screen and (min-width: 800px)" },
-    "cu-600": { "@container": "screen and (min-width: 600px)" },
-    "cu-400": { "@container": "screen and (min-width: 400px)" },
+    "cu-800": { "@container": `(max-width: 800px)` },
+    "cu-600": { "@container": `(max-width: 600px)` },
+    "cu-400": { "@container": `(max-width: 400px)` },
   },
   defaultCondition: "wide",
   properties: {
